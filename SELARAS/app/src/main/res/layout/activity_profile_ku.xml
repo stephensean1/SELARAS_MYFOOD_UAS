@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baru1"
+    tools:context=".ProfileKu"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Linear_logoProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="340dp"
+            android:layout_gravity="center"
+
+            android:src="@drawable/aldo1" />
+
+       <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:text=" Nama     : Aldo Saputra"
+        android:paddingRight="200dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+
+        />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text=" Email      : aldosaputra090900@gmail.com"
+            android:paddingRight="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text=" No Tlp    : 087776661202"
+            android:paddingRight="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text=" Alamat   : Allogio Barat No1,Gading Serpong."
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_back1"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:background="#EDDB3F"
+            android:text="BACK"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

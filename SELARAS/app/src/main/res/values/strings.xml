@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SplashScreenActivity</string>
+    <string name="title_activity_rute_restoran">Map</string>
+    <string name="content_desc_apalah">apalah</string>
+    <string name="content_desc_apalah1">apalah1</string>
+    <string name="back">back</string>
+</resources>

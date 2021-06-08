@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936933453590",
+    "firebase_url": "https://project-uas-selaras-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "project-uas-selaras",
+    "storage_bucket": "https://console.firebase.google.com/project/project-uas-selaras/storage/project-uas-selaras.appspot.com/files"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936933453590:android:3ad369b12247bce7d2ea37",
+        "android_client_info": {
+          "package_name": "umn.ac.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936933453590-uisebma21stf186ch70rvv7et00sqan7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "umn.ac.id",
+            "certificate_hash": "39b80e592a52ef8413d8b2708d131285aa6239e6"
+          }
+        },
+        {
+          "client_id": "936933453590-30u62l0ne6sfvi6jqf91f6evr3um4hql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj-rcdxEx8b6DylvgdkChb0PH0_IW7m8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936933453590-30u62l0ne6sfvi6jqf91f6evr3um4hql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

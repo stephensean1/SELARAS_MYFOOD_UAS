@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cart">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA ORDER"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/nama_pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:hint="Nama Pemesan"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/nomor_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:hint="Nomor Telpon"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/alamat_pengiriman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_place"
+        android:drawablePadding="10dp"
+        android:hint="Alamat Pengiriman"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/method_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S E L A N J U T N Y A"
+        android:background="@drawable/cart_roundshape"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:textSize="15sp"/>
+</LinearLayout>
